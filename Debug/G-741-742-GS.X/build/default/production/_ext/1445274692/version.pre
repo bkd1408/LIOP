@@ -1,0 +1,41 @@
+
+# 1 "../../src/version.c"
+
+# 5 "../../include\typedef.h"
+typedef unsigned long DWORD;
+typedef unsigned int WORD;
+typedef unsigned char BYTE;
+typedef signed long SDWORD;
+typedef signed int SWORD;
+typedef signed char SBYTE;
+
+# 7 "../../src/version.c"
+DWORD const identyty[4] =
+{
+0x000000B5,
+0x00000000,
+0x00000000,
+0x00000000,
+};
+
+
+BYTE const version_uea_G741[6] = "V1.5A";
+BYTE const version_uea_G742[6] = "V1.4A";
+
+BYTE const hardware_uea_G741[6] = "V1.3";
+BYTE const device_name_G741[6] = {
+'G', '-', '7', '4', '1',
+};
+
+BYTE const hardware_uea_G742[6] = "V1.1";
+BYTE const device_name_G742[6] = {
+'G', '-', '7', '4', '2',
+};
+
+WORD const version_fver = 0xe741;
+
+
+
+
+DWORD const version_chksum = 0xffffffff;
+

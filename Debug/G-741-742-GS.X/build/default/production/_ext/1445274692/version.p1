@@ -1,0 +1,120 @@
+Version 3.2 HI-TECH Software Intermediate Code
+[; ;include\typedef.h: 5: typedef unsigned long DWORD;
+[; ;include\typedef.h: 6: typedef unsigned int WORD;
+[; ;include\typedef.h: 7: typedef unsigned char BYTE;
+[; ;include\typedef.h: 8: typedef signed long SDWORD;
+[; ;include\typedef.h: 9: typedef signed int SWORD;
+[; ;include\typedef.h: 10: typedef signed char SBYTE;
+"7 ../../src/version.c
+[v _identyty `Cul ~T0 @X0 -> 4 `i e ]
+[i _identyty
+:U ..
+"9
+-> -> -> 181 `i `l `ul
+"10
+-> -> -> 0 `i `l `ul
+"11
+-> -> -> 0 `i `l `ul
+"12
+-> -> -> 0 `i `l `ul
+..
+]
+[; ;version.c: 7: DWORD const identyty[4] =
+[; ;version.c: 8: {
+[; ;version.c: 9: 0x000000B5,
+[; ;version.c: 10: 0x00000000,
+[; ;version.c: 11: 0x00000000,
+[; ;version.c: 12: 0x00000000,
+[; ;version.c: 13: };
+"16
+[v _version_uea_G741 `Cuc ~T0 @X0 -> 6 `i e ]
+[i _version_uea_G741
+:U ..
+-> 86 `c
+-> 49 `c
+-> 46 `c
+-> 53 `c
+-> 65 `c
+-> 0 `c
+..
+]
+[; ;version.c: 16: BYTE const version_uea_G741[6] = "V1.5A";
+"17
+[v _version_uea_G742 `Cuc ~T0 @X0 -> 6 `i e ]
+[i _version_uea_G742
+:U ..
+-> 86 `c
+-> 49 `c
+-> 46 `c
+-> 52 `c
+-> 65 `c
+-> 0 `c
+..
+]
+[; ;version.c: 17: BYTE const version_uea_G742[6] = "V1.4A";
+"19
+[v _hardware_uea_G741 `Cuc ~T0 @X0 -> 6 `i e ]
+[i _hardware_uea_G741
+:U ..
+-> 86 `c
+-> 49 `c
+-> 46 `c
+-> 51 `c
+-> 0 `c
+..
+]
+[; ;version.c: 19: BYTE const hardware_uea_G741[6] = "V1.3";
+"20
+[v _device_name_G741 `Cuc ~T0 @X0 -> 6 `i e ]
+[i _device_name_G741
+:U ..
+"21
+-> -> 71 `ui `uc
+-> -> 45 `ui `uc
+-> -> 55 `ui `uc
+-> -> 52 `ui `uc
+-> -> 49 `ui `uc
+..
+]
+[; ;version.c: 20: BYTE const device_name_G741[6] = {
+[; ;version.c: 21: 'G', '-', '7', '4', '1',
+[; ;version.c: 22: };
+"24
+[v _hardware_uea_G742 `Cuc ~T0 @X0 -> 6 `i e ]
+[i _hardware_uea_G742
+:U ..
+-> 86 `c
+-> 49 `c
+-> 46 `c
+-> 49 `c
+-> 0 `c
+..
+]
+[; ;version.c: 24: BYTE const hardware_uea_G742[6] = "V1.1";
+"25
+[v _device_name_G742 `Cuc ~T0 @X0 -> 6 `i e ]
+[i _device_name_G742
+:U ..
+"26
+-> -> 71 `ui `uc
+-> -> 45 `ui `uc
+-> -> 55 `ui `uc
+-> -> 52 `ui `uc
+-> -> 50 `ui `uc
+..
+]
+[; ;version.c: 25: BYTE const device_name_G742[6] = {
+[; ;version.c: 26: 'G', '-', '7', '4', '2',
+[; ;version.c: 27: };
+"29
+[v _version_fver `Cui ~T0 @X0 1 e ]
+[i _version_fver
+-> 59201 `ui
+]
+[; ;version.c: 29: WORD const version_fver = 0xe741;
+"34
+[v _version_chksum `Cul ~T0 @X0 1 e ]
+[i _version_chksum
+-> 4294967295 `ul
+]
+[; ;version.c: 34: DWORD const version_chksum = 0xffffffff;
